@@ -6,11 +6,8 @@ const VideoDetail = ({video}) => {
     return <div>Loading...</div>
   }
 
-  // const video = props.video
   const videoId = video.id.videoId
   const url = `https://www.youtube.com/embed/${videoId}`;
-
-
 
   return(
     <li className="list-group-item">
